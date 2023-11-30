@@ -4,6 +4,7 @@
 
 contcadastro = 1
 contlogin = 1
+contmenu = 1
 contnome = 1
 contdata = 1
 contcpf = 1
@@ -173,3 +174,70 @@ while contcadastro != 0:
         if nome1 == nome and senha1 == senha:
             if contlogin:
                 break
+
+    while contmenu != 0:
+
+        print('=== Menu Inicial ===')
+        print('1 - Marcar consulta')
+        print('2 - Guia para Gestantes')
+        print('3 - Quem somos?')
+        print('0 - Sair')
+        opcao = int(input())
+
+        if opcao == 1:
+            print('Aqui o usuario poderia marcar uma data pra ter uma consulta mais aprofundada '
+                  'e desenvolver melhor as informações sobre sua saúde.')
+
+            contmenu += 1
+
+        elif opcao == 2:
+            print('Exames:')
+            print('     -Exames de sangue;')
+            print('     -Exame de urina;')
+            print('     -Exame de fezes;')
+            print('     -Exame ginecológicos;')
+            print('     -Ultrassom;')
+            print('     -Triagem de estreptococo;')
+            print('\n\nBoa Alimentação:')
+            print('     -Frutas frescas(maçãs, bananas, morangos, uvas etc.)')
+            print('     -Vegetais variados(brócolis, espinafre, cenouras,abobrinha etc.)')
+            print('     -Grãos integrais(arroz integral, quinoa, aveia etc.)')
+            print('     -Legumes(feijão, lentilhas, grão-de-bico etc)')
+            print('     -Proteínas magras(frango, peixe, tofu, carne magra, ovos)')
+            print('\n\nBoa Alimentação para o Bebê:')
+            print('     De 6 a 7 meses:')
+            print('             -Purê de abacate;')
+            print('             -Purê de banana;')
+            print('             -Purê de batata doce;')
+            print('             -Purê de cenoura.')
+            print('     De 8 a 9 meses:')
+            print('             -Feijão e arros(muito bem cozidos)')
+            print('             -Purê de batata;')
+            print('             -Purê de banana;')
+            print('             -Purê de batata doce;')
+            print('             -Purê de cenoura.')
+            print('     De 10 a 12 meses:')
+            print('             -Feijão e Arroz;')
+            print('             -Pequenos pedaços de carne e frango;')
+            print('             -Pedaços de manga;')
+            print('             -Uva sem caroço;')
+            print('             -Mamão.')
+
+            contmenu += 1
+
+
+        elif opcao == 3:
+            print('Nosso é oferecer assistência médica e odontológica de alta qualidade a preços '
+                      'acessíveis.')
+            print('\nNossos processos são regularmente revisados pelo Conselho de Administração de forma '
+                      'consolidada para embasar as decisões estratégicas.')
+            print('\nA estrutura organizacional da empresa inclui hospitais, pronto-atendimentos, clínicas '
+                      'e outras unidades de atendimento, todos destinados a atender às necessidades dos beneficiários dos produtos'
+                      'comercializados pela operadora de planos de saúde.')
+            print('\nA empresa opera através de dois tipos de produtos: Plano de Assistência Médica e '
+                      'Planos de Assistência Odontológica, distribuídos geograficamente.')
+
+            contmenu += 1
+
+        elif opcao == 0:
+            exit()
