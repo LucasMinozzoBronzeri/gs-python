@@ -1,3 +1,9 @@
+#Diego Costa Silva RM552648
+#Lucas Minozzo Bronzeri RM553745
+#Marcelo Mendes Galli RM553654
+
+
+
 # DESCRIÇÃO DA SOLUÇÃO 
 Desejamos auxiliar a alcançar as metas 3.1 e 3.2 do Objetivo de Desenvolvimento Sustentável 3, que visam reduzir a taxa de mortalidade materna global para menos de 70 mortes por 100.000 nascidos vivos até 2030 e busca eliminar as mortes evitáveis de recém-nascidos e crianças menores de 5 anos, com metas específicas de mortalidade neonatal e infantil.  
 Um dos principais fatores para a morte após a gestação é a falta de assistência pré-natal, tanto para mães quanto bebês. O que agrava a situação são as doenças pré-existentes. As doenças mais comuns nos casos de mortalidade materna (fonte: Fiocruz, 2022): 
