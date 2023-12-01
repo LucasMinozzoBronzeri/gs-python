@@ -31,3 +31,10 @@ Na funcionalidade do guia, será uma forma de conscientização e apoio para as 
     -Opções de diferentes idiomas;
     -Base de dados seguindo acima da 3 forma normal;
     -Layout simples e intuitivo para todos. 
+
+
+
+# Video do código
+
+
+https://www.youtube.com/watch?v=WJqH3l6d6gc
